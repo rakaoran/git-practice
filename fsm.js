@@ -134,8 +134,8 @@ function ExportAsLaTeX() {
 
 // draw using this instead of a canvas and call toSVG() afterward
 function ExportAsSVG() {
-	this.fillStyle = 'black';
-	this.strokeStyle = 'black';
+	this.fillStyle = 'white';
+	this.strokeStyle = 'white';
 	this.lineWidth = 1;
 	this.font = '12px Arial, sans-serif';
 	this._points = [];
